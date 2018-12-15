@@ -154,12 +154,12 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
-            برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/YEXcDXt 
+            برودكاست عادي : -}bc
+            دعوة البوت لسيرفرك : -invite
+            معلومات عن السيرفر : -server
+            برودكاست للأونلاين فقط : -bco
+            يعرض لك عدد المتبندين من سيرفرك : -banned
+            رابط سيرفر الدعم الفني : https://discord.gg/7vJ6JPX 
             **`);
             message.channel.sendEmbed(help); .
     }
